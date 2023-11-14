@@ -38,30 +38,24 @@ The API should be running at http://localhost:3000.
 
 1. Add Employees Endpoint:
 
-   -Request Type: POST
-   -URL: http://localhost:3000/employee/add
-   -Content-Type: application/json
-   -Request Body:
-   [
-   { "id": 1, "name": "John Doe", "position": "Frontend Developer" },
-   { "id": 2, "name": "Jane Doe", "position": "Marketer" },
-   { "id": 3, "name": "Juan Delacruz", "position": "Clinician" }
-   ]
+   - Request Type: POST
+   - URL: http://localhost:3000/employee/add
+   - Content-Type: application/json
 
    NOTE. I added a txt file for example data, to copy easily
 
 2. Random Employee Endpoint:
 
-   -Request Type: GET
-   -URL: http://localhost:3000/employee/random
-   -Expected Result: A random employee object should be returned.
+   - Request Type: GET
+   - URL: http://localhost:3000/employee/random
+   - Expected Result: A random employee object should be returned.
 
 3. Update Employee Endpoint:
 
-   -Request Type: PUT
-   -URL: http://localhost:3000/employee/update/1 (Replace 1 with an existing employee ID)
-   -Content-Type: application/json
-    -Request Body:
+   - Request Type: PUT
+   - URL: http://localhost:3000/employee/update/1 (Replace 1 with an existing employee ID)
+   - Content-Type: application/json
+   - Request Body:
    
    { "id": 1, "name": "Updated Employee", "position": "Senior Developer" }
 
@@ -69,15 +63,15 @@ The API should be running at http://localhost:3000.
 
 5. List Employees Endpoint:
 
-   -Request Type: GET
-   -URL: http://localhost:3000/employees
-   -Expected Result: A list of all employees should be returned.
+   - Request Type: GET
+   - URL: http://localhost:3000/employees
+   - Expected Result: A list of all employees should be returned.
 
 6. Delete Employee Endpoint:
 
-   -Request Type: DELETE
-   -URL: http://localhost:3000/employee/delete/1 (Replace 1 with an existing employee ID)
-   -Expected Result: A response indicating that the employee was deleted successfully.
+   - Request Type: DELETE
+   - URL: http://localhost:3000/employee/delete/1 (Replace 1 with an existing employee ID)
+   - Expected Result: A response indicating that the employee was deleted successfully.
 
 SUMMARY FOR BOTH EXAM
 
