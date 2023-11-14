@@ -1,0 +1,13 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.listEmployeesRoute = exports.updateEmployeeRoute = exports.deleteEmployeeRoute = exports.addEmployeeRoute = exports.randomEmployeeRoute = void 0;
+var randomEmployee_1 = require("./randomEmployee");
+Object.defineProperty(exports, "randomEmployeeRoute", { enumerable: true, get: function () { return randomEmployee_1.router; } });
+var addEmployee_1 = require("./addEmployee");
+Object.defineProperty(exports, "addEmployeeRoute", { enumerable: true, get: function () { return addEmployee_1.router; } });
+var deleteEmployee_1 = require("./deleteEmployee");
+Object.defineProperty(exports, "deleteEmployeeRoute", { enumerable: true, get: function () { return deleteEmployee_1.router; } });
+var updateEmployee_1 = require("./updateEmployee");
+Object.defineProperty(exports, "updateEmployeeRoute", { enumerable: true, get: function () { return updateEmployee_1.router; } });
+var listEmployee_1 = require("./listEmployee");
+Object.defineProperty(exports, "listEmployeesRoute", { enumerable: true, get: function () { return listEmployee_1.router; } });
